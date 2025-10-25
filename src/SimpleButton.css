@@ -1,0 +1,25 @@
+.simple-btn{
+padding: 8px 14px;
+border-radius: 6px;
+border: 1px solid #2563eb; /* blue */
+background: #3b82f6;
+color: white;
+font-weight: 600;
+cursor: pointer;
+}
+
+
+.simple-btn:disabled{
+opacity: 0.6;
+cursor: not-allowed;
+}
+
+
+.simple-btn:active{
+transform: translateY(1px);
+}
+
+
+@media (max-width: 480px){
+.simple-btn{ padding: 10px 16px; font-size: 16px }
+}
